@@ -1,0 +1,90 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body{
+	margin: 0px;
+	background-color: #06A1EF;
+	font-family: 'Lato', sans-serif;
+	color: #999999;
+
+}
+.contenedor{
+	margin: 0 25%;
+	background-color: white;
+	padding: 70px;
+	position: relative;
+	
+
+}
+
+
+.foto{
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50%;
+	background-color: red;
+	 overflow: hidden;
+
+ position: relative;
+
+
+}
+
+.foto img{
+	position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);3
+}
+
+.text{
+	text-align: justify;
+	padding-top: 20px;
+}
+
+.formulario{
+	width: 90%;
+
+	
+}
+
+.formulario input{
+	width: 100%;
+	
+	margin: 5px;
+	height: 25px;
+}
+
+textarea {
+	width: 100%;
+	margin: 5px;
+}
+
+.boton{
+	background-color: #BF0076;
+	align-items: flex-start;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border: 2px outset buttonface;
+    width: 50% !important;
+    font-size: 25px;
+    height: auto !important;
+
+    border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	
+
+}
